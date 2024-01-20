@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SheduleHubAPI.Models
+﻿namespace SheduleHubAPI.Contracts.ChatMessage
 {
-    public partial class ChatMessage
+    public class GetChatMessageResponse
     {
         public int IdMessage { get; set; }
         public int IdSender { get; set; }
@@ -15,10 +12,5 @@ namespace SheduleHubAPI.Models
         public DateTime CreatedAt { get; set; }
         public int? DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
-
-        public virtual Student CreatedByNavigation { get; set; } = null!;
-        public virtual Student? DeletedByNavigation { get; set; }
-        public virtual Chat IdChatNavigation { get; set; } = null!;
-        public virtual MessageStatus IdStatusNavigation { get; set; } = null!;
     }
 }
