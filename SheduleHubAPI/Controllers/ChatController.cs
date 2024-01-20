@@ -68,7 +68,7 @@ namespace SheduleHubAPI.Controllers
         /// </remarks>
         /// <param name="Чат"></param>
         /// <returns></returns>
-        
+
         // Post api/<ChatController>
         [HttpPost]
 

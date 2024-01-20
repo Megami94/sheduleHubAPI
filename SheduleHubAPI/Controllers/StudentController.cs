@@ -66,10 +66,10 @@ namespace SheduleHubAPI.Controllers
         /// </remarks>
         /// <param name="Пользователь"></param>
         /// <returns></returns>
-        
+
         // Post api/<StudentController>
         [HttpPost]
-         
+
         public async Task<IActionResult> Add(CreateStudentRequest request)
         {
             var userDto = request.Adapt<Student>();

@@ -65,7 +65,7 @@ namespace SheduleHubAPI.Controllers
         /// </remarks>
         /// <param name="group"></param>
         /// <returns></returns>
-        
+
         // Post api/<StudentGroupController>
         [HttpPost]
         public async Task<IActionResult> Add(CreateStudentGroupRequest request)

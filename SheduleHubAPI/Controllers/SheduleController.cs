@@ -71,7 +71,7 @@ namespace SheduleHubAPI.Controllers
         /// </remarks>
         /// <param name="shedule"></param>
         /// <returns></returns>
-   
+
         // Post api/<SheduleController>
         [HttpPost]
 

@@ -40,7 +40,7 @@ namespace SheduleHubAPI.Controllers
         public IActionResult Get(int id)
         {
             ChatMessage? chatMessage = Context.ChatMessages.Where(x => x.IdChat == id).FirstOrDefault();
-            if (chatMessage== null)
+            if (chatMessage == null)
             {
                 return BadRequest("Not Found");
             }
@@ -68,7 +68,7 @@ namespace SheduleHubAPI.Controllers
         /// </remarks>
         /// <param name="chatMessage"></param>
         /// <returns></returns>
-        
+
         // Post api/<ChatMessageController>
         [HttpPost]
 

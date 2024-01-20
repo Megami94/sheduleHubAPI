@@ -80,12 +80,12 @@ namespace SheduleHubAPI.Controllers
         }
 
 
-            /// <summary>
-            /// Обновление пользователей чата
-            /// </summary>
-            /// <param name="chatUser"></param>
-            /// <returns></returns>
-            [HttpPut]
+        /// <summary>
+        /// Обновление пользователей чата
+        /// </summary>
+        /// <param name="chatUser"></param>
+        /// <returns></returns>
+        [HttpPut]
 
 
         public async Task<IActionResult> Update(CreateChatUserRequest request)
